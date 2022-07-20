@@ -2,7 +2,7 @@ import React from "react";
 import Personal from "./Medium";
 
 const Friends = () => {
-    const theirBusiness = [
+    const FriendsBusiness = [
 
         {name: "sayra",
         age: "22",
@@ -32,7 +32,7 @@ const Friends = () => {
 
     return (
         <div className="List">
-            {theirBusiness.map((info) => (
+            {FriendsBusiness.map((info) => (
                 <Personal 
                     name={info.name} 
                     age={info.age} 
